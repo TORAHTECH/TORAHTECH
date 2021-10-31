@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fauna One", serif;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.section {
+  height: 100%;
+  width: calc( 100% / 5 );
+  height:90vh;
+  float: left;
+  position: relative;
+}
+.section:nth-child(1) {
+  background: #D95743;
+  background:#111;
+}
+.section:nth-child(2) {
+  background: #22A7F0;
+}
+.section:nth-child(3) {
+  background: #F9690E;
+  background:#111;
+}
+.section:nth-child(4) {
+   background: #03C9A9;
+
+}
+.section:nth-child(5) {
+  background: #9B59B6;  background:#111;
+}
+.sections {
+  width: 500%;
+  height: 100%;
+}
+.section__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+}

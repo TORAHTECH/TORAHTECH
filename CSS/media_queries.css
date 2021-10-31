@@ -1,0 +1,553 @@
+/* ▀▄▀▄▀ Yahuu Media Queries ▀▄▀▄▀ */
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (device-width: 360px) and (max-device-width : 480px) {
+
+	/* STYLES GO HERE */
+	
+	/* formatting */
+	.boundary {
+        padding: 0 40px;
+	}
+
+    /* formatting lists */
+    ul,
+    ol,
+    li {
+        margin: 0;
+        font-family: 'Bitter', serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+    }
+
+    /* appointment/index.php */
+    .acuity-modal p {
+        font-size: 2em;
+        text-align: justify;
+        word-spacing: 0.2em;
+    }
+	
+	/*music_production/index.php  formatting */
+	html#music_production{
+		padding:0;
+	}
+	body#music_production {
+		width:inherit;
+		font-size: 20px;
+		overflow: initial;
+	}
+	body#music_production .layout {
+		flex-direction: column;
+	}
+	body#music_production .sidebar-first {
+		order: 2;
+	}
+	body#music_production .container {
+		order: 1;
+	}
+	body#music_production 	.sidebar-second {
+		order: 3;
+	}
+	#music_production table.producer {
+		width: 100%;
+	}
+	body#music_production tbody {
+		overflow: scroll;
+		font-size: 0.7em;
+		display: flex;
+		flex-direction: row;    color: #8f8f8f;
+	}
+	body#music_production th {margin-bottom: 40px;}
+	body#music_production tbody tr {
+		display: contents;
+	}
+	body#music_production p {
+		width: 80%;
+		text-align: center;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) and (max-device-width : 1824px)  {
+	/* STYLES GO HERE */
+	
+		/* BODY  */
+		body{font-size: 1.4em;}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+	/* STYLES GO HERE */
+	
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    /* STYLES GO HERE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ the new new shyt ᅳᅳᅳᅳ  */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+	/* ᅳᅳᅳᅳ► ▌║█║▌│║▌│║▌║▌█║_CSS_Rules_Here_▌│║▌║▌│║║▌█║▌║█   */
+
+}
+
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ iPhone XS Max, 11 Pro Max ᅳᅳᅳᅳ▀▄▀▄▀ */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+	/* ᅳᅳᅳᅳ►splash/index.php  */
+	body .main {
+		width: 400px;
+	}
+	#content {
+		top: 0;
+	}
+	/* ᅳᅳᅳᅳ►forms/collecting_information.php  */
+	legend {
+		font-size: 0.6em!important;
+	}
+}
+
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ smartphones, portrait iPhone, portrait 480x320 phones (Android) ᅳᅳᅳᅳ   */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+	
+	/* ᅳᅳᅳᅳ►splash/index.php  */
+	.qsr {
+		height: 100%;
+	}
+	#content {
+		width: 80%!important;
+		float: right;
+	}
+	a {
+		font-size: 12px;
+	}
+	
+
+
+
+ }
+  
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ MEDIA QUERY▀▄▀▄▀ FOR MOBILE SMARTPHONES ᅳᅳᅳᅳ  */
+	@media only screen and (max-width: 575px) {
+
+		/* CSS BEGIN HERE  */
+
+
+
+
+		/* ᅳᅳᅳᅳ►Cenetering Main content  */
+		#main-content p:first-of-type {
+			text-align: center;
+		}
+		/*Headers are centered on mobile  */
+		h1, h2, h3, h4, h5 {
+			text-align: center;
+			margin: 0!important;
+		}
+		h1 {
+			font-size: 1.8em;
+			font-weight: bold;
+			text-shadow: -1px 01px 0 #fff;
+			font-family: "Alegreya Sans SC", sans-serif;
+		}	
+		form h1 {
+			max-width: 100%;
+			border-radius: 2px;
+			font-size: 0.2em;
+			font-size: 20px;
+		}
+		/* forms/collecting_information.php - hr  */
+		hr.collectinginfo{
+			height: 8px;
+			border: none;
+			background-image: url('https://www.torahtech.tech/thepersonalmassage/bg/gloss-blue-table_low_fotter.gif');
+			background-size: contain;
+			background-repeat: repeat-x;
+			background-position: center center;
+			margin: 0 auto;
+			border-radius: 0.2em;
+			}
+	
+		/* ᅳᅳᅳᅳ►forms/collecting_information.php - wireframe_basics.php  */
+		body#collectinginfo {
+			scroll-behavior: smooth;
+			background-color: rgb(234, 234, 225);
+		}
+		body.mediaquery-stretch, body.mediaquery-stretch form {
+			width: 95%; overflow-x: hidden;
+		}
+		.collectinginfo form{ background: #fff;}
+	
+		legend{font-size: 0.6em!important;}
+		fieldset{margin-bottom: 0!important;}
+		fieldset.flex-media{    flex-direction: column;			margin: 0 auto;		align-items: center; align-items: flex-end;} /* flex the fieldset container to compact lines*/
+		fieldset:nth-child(5) {
+			display: grid!important;
+		}
+		label.alter{display: block;}
+		#favcolor {display:block;color: #275EFE!important;height: 30px;}
+
+		input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+			margin: 0;
+			padding: 03px 08px!important; margin-bottom: 012px!important;  
+    		display: flex;
+		}
+	 
+		input[type="radio"] {
+			width: 30px;
+			height: 14px;
+		}
+		.alter input[type="radio"] {margin: 0 4px 8px 100px;width: 0;height: 0;}
+		.contain {
+			border-left: 0;
+			padding-left: 0;
+			display: inline-table;
+			width: 300px;
+			height: 100%;
+			margin-left: -12px;
+		}
+		/* ᅳᅳᅳᅳ►Footer  */
+		footer {
+			text-size-adjust: 60%;
+			font-size: 0.6em;
+			/* ᅳᅳᅳᅳ►background image  */
+			background-image: url('http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/device-mobile-phone-icon.png');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: left 20px bottom 1px;
+			HEIGHT: 40PX;
+		}
+		footer p{
+			padding:12px;
+		}
+		footer a {
+			display: inline-flex;
+		}
+		footer a:active {
+			letter-spacing: 0.4em;
+		}
+		/*hide elements on mobileᅳᅳᅳᅳ */
+		.nomob {
+			display: none !important;
+		}	
+		/* ᅳᅳᅳᅳ►upload.php  */
+		div.upload {
+			margin: 0 auto;
+			transition-duration: 1s;
+		}
+
+		body:hover div.upload {
+			width: revert;
+		}
+
+		.upload img {
+			display: flex;
+			margin: 0 auto;
+			width: 112px;
+		}
+
+		tbody tr {
+			display: flex;
+		}
+
+		.print {
+			margin-top: 144px;
+			font-size: 14px;
+		}
+
+		.amran:hover {
+			background-color: #121d29;
+		}
+
+
+		form.upload {
+			display: flex;
+			flex-direction: column;
+			width: auto;
+			padding: 0;
+		}
+
+		.small {
+			height: auto;
+		}
+
+		.upload img.small {
+			display: flex;
+		}
+
+		.display img.small {
+			margin: 0 auto;
+		}
+
+		form.upload .box input {
+			margin-left: 0;
+			letter-spacing: 0;
+		}
+
+		.amran {
+			line-height: 2;
+		}
+	
+		form.upload input.box {
+			margin-left: -12;
+			box-shadow: -4px 0px 16px #67dbff;
+		}
+		form.upload:hover input.box{
+		margin-left: 0;
+		}
+		form.upload input.box:hover { 
+			box-shadow: -4px 0px 6px #0b0b0b;
+			background: #000000ba;
+			color: white;
+			text-shadow: none;
+			border-color: aquamarine;
+			border-radius: 1.5em;
+		}
+
+		form.upload input.box:active {
+			box-shadow: -4px 0px 6px #67dbff;
+			background: #000;
+		}
+
+		form.upload td+td {
+			display: flex;
+		}
+		form.upload td + td {
+			margin-left: 20px;
+		}
+		.headerimage .medium {
+			width: 100%;
+		}
+
+		.upload img.tiny {
+			display: inline;
+			width: auto;
+		}
+
+		form.upload select {
+			height: 200px;
+			width: 90%;
+			border-radius: 0.3em;
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+		
+	
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ tablets laptops desktops ᅳᅳᅳᅳ/ ᅳ►PORTRAIT: tablets, portrait iPad, e-readers (Nook/Kindle  )ᅳᅳᅳᅳ/ ᅳlandscape: 800x480 phones (Android)*/
+ 
+	@media (min-width:600px) {
+		/* ᅳᅳᅳᅳ►server msg  */
+		.server_msg {
+			right: 2px;
+		}
+		
+		/* headings /sitemap.php */
+		h1 {
+			margin: 12px 0 0 0;
+			font-size: 1em;
+			}
+		
+		/* ᅳᅳᅳᅳ► special classes  */
+	.push{margin: 0 0 0 62px;}
+		/* ᅳᅳᅳᅳ►forms/collecting_information.php  */
+		.contain {
+			margin-left: 15px;
+			border-left: 2px solid#0d70f20a;
+			padding-left: 018px;
+			display: inline-table;
+			width: 300px;
+			height: 420px;
+		}
+		.contain:hover {
+			border-color:#0d70f2c9;
+		}
+		label.alter{display: flex; margin-bottom: 0;}
+		/*hr*/
+		.divider {display:none; border:2px solid teal;}
+	}
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ tablet, LANDSCAPE iPad, lo-res laptops ands desktops ᅳᅳᅳᅳ  */
+	@media (max-width:801px) {
+		/* ᅳᅳᅳᅳ►splash/index.php  */
+		html.splash{ padding:0;}
+		html.splash body{background-color:inherit;}
+		.splash  .title{font-size: 2rem !important;
+			text-shadow: -06px -02px 02px #000;	
+			background: #1010108f; 
+			position:absolute;
+	}
+
+		.qsr:hover .contact a {
+			font-size: 14px;
+			text-align: center;
+		}
+		.qsr {		display: grid;	padding: 0 10px;	}
+		.contact {
+			width: 80px;
+			height: 120px;
+		}
+		.contact img {
+			display: block;
+			margin: 0 auto;
+			width: 70%;
+			height: auto;
+			transition-duration: 0.4s;
+		}
+		.qsr:hover .contact img {
+			height: 80%;
+		}
+		a:hover {	color: teal;		}
+		.contact:nth-child(even) img:hover {
+			-webkit-filter: grayscale(100%);
+		/* ᅳᅳᅳᅳ►Chrome, Safari, Opera*/
+			filter: grayscale(100%);
+			margin-top: 02px;
+			margin-bottom: -02px;
+			transform: rotate(12deg);
+		}
+		.contact:nth-child(odd) img:hover {
+			transform: rotate(-12deg);
+		}
+		.contact p {
+			text-align: center;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		.contact:hover p {
+			color: white;
+		}
+		.contact a:hover {
+			text-decoration: underline;
+		}
+		html .main #content .title span, html .main #content .title span.xtra, body .main #content .title span, body .main #content .title span.xtra {
+			font-size: 2rem;
+		}
+	}
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ BIG LANDSCAPE tablets, laptops, and desktops ᅳᅳᅳᅳ */
+	@media (min-width:1025px) {
+		pre a  { font-size: 18px;}
+		/* index page  */
+		.card__inner,.card__inner span + span {
+			height: 234px;
+			font-size: 1.6em;
+		}
+		/* ᅳᅳᅳᅳ►splash page  */
+		#content {
+			top: 43%;
+		}
+		.qsr {
+			height: 100px;
+		}
+		.contact {
+			width: 120px;
+			margin: 0 auto;
+			height: 100%;
+			text-align: center;
+		}
+		.contact a {
+			font-size: 15px;
+		}
+		 
+	/* ᅳᅳᅳᅳ►<aside> */
+		body#aside .sidebar-first {
+			width: 17%;
+		}
+
+		.sidebar-second {
+			width: 30%;
+		}
+
+
+
+
+
+
+
+
+
+	}
+/* ᅳᅳᅳᅳ►▀▄▀▄▀ hi-res laptops and desktops ᅳᅳᅳᅳ */		
+		@media (min-width:1281px) {
+
+
+
+
+
+		/* ᅳᅳᅳᅳ► PAGE  */
+		}

@@ -1,0 +1,124 @@
+ /* ງ໐໐ງlē fonts*/
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Alegreya+Sans+SC&family=Alfa+Slab+One&family=Dosis:wght@400;600;800&family=Fredericka+the+Great&family=Mada:wght@300&family=Poller+One&family=Poppins&family=Special+Elite&family=Tenor+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Julius+Sans+One&family=Lalezar&family=Lexend+Zetta&family=Quicksand:wght@700&display=swap&family=Aldrich&family=Alegreya+Sans+SC&family=Alfa+Slab+One&family=Dosis&family=Fredericka+the+Great&family=Mada:wght@300&family=Poller+One&family=Poppins&family=Special+Elite&family=Tenor+Sans&display=swap');
+ /*forms and junt' fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@900&family=Fredericka+the+Great&family=Righteous&display=swap');
+ /* Source Serif Pro */
+
+ @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+ /* 𝒎𝒐𝒓𝒆 */
+ @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC); /*hand*/
+ /* Philosopher */
+
+ @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+ /*
+     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+	    font-family: 'Aldrich', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Mada', sans-serif;
+    font-family: 'Poller One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+===============forms n junt'======================	
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Source Serif Pro', serif;
+   */
+/* 🇸🇪🇱🇫 🇭🇴🇸🇹🇪🇩 */
+ @font-face {
+    font-family: 'Tenor Sans', sans-serif;
+    src: url("../fonts/TenorSans-Regular.ttf");
+ }
+ /*  Courier Prime  */
+
+ @font-face {
+    font-family: 'Courier Prime', monospace;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/CourierPrime-Bold.ttf") format("truetype");
+ }
+ /*  Denk One  */
+
+ @font-face {
+    font-family: 'Denk One', sans-serif;
+    src: url("../fonts/DenkOne-Regular.ttf");
+ }
+ /* Lalezar   */
+
+ @font-face {
+    font-family: "Lalezar";
+    src: url("../fonts/Lalezar-Regular.ttf");
+ }
+ /*  quicksand   */
+
+ @font-face {
+    font-family: "quicksand bold oblique";
+    src: url("../fonts/quicksand_bold_oblique.ttf");
+ }
+ /*  Fira Sans   */
+
+ @font-face {
+    font-family: "Fira Sans Light";
+    src: url("../fonts/Fira_Sans/FiraSans-Light.ttf");
+ }
+ /*Julius sans ONE */
+
+ @font-face {
+    font-family: 'Julius Sans One script=latin rev=1';
+    src: url("../fonts/JuliusSansOne-Regular.ttf") format("truetype");
+ }
+ /*Lexend Zetta */
+
+ @font-face {
+    font-family: 'Lexend Zetta', sans-serif;
+    src: url("../fonts/LexendZetta-Regular.ttf") format("truetype");
+ }
+ /* xxx mirage   */
+
+ @font-face {
+    font-family: "mirage";
+    src: url("../fonts/mirage.ttf");
+ }
+ /*  xxx Irvin-Heading  */
+
+ @font-face {
+    font-family: "Irvin-Heading";
+    src: url("../fonts/Irvin-Heading.ttf") format("truetype");
+ }
+ /*  xxx PF Bague  */
+
+ @font-face {
+    font-family: "PF Bague Sans Pro Ultra Black";
+    src: url("../fonts/PFBagueSansPro-UltraBlack.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: 'PF Bague Sans Pro Regular';
+    src: url("../fonts/PFBagueSansPro.ttf") format("truetype");
+ }
+ /*xxx impact_label   */
+
+ @font-face {
+    font-family: 'impact_labelregular';
+    src: url('../fonts/Impact Label.ttf') format('truetype'), url('../fonts/woff/impact_label-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+ /*xxx impact label   Reversed*/
+
+ @font-face {
+    font-family: "Impact Label Reversed";
+    src: url("../fonts/Impact_Label_Reversed.ttf");
+ }

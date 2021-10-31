@@ -1,0 +1,202 @@
+/** THIS CODE ISNT MY!!!!!!! 
+Only the text on buttons was made for me. **/
+@import "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500";
+
+.menu, .button {
+  width: 108px;
+  height: 108px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+} 
+
+.menu {
+  position: relative;
+  z-index:12;
+  top: 35px;
+  left: 35px;
+  -webkit-transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92), -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  cursor: pointer;
+}
+
+.button {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 33%;
+  opacity: 0.8;
+  font: 25px/100px Ropa Sans, sans-serif;
+  -webkit-transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92), -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  will-change: transform;
+   transition: transform 02.75s cubic-bezier(0.39, 1.52, 0.46, 0.92), -webkit-transform 02.75s cubic-bezier(0.39, 1.52, 0.46, 01.92);
+}
+.button.closed {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
+		  
+
+}
+
+.main {
+	color: #fbcc9c;
+	text-align: center;
+	mix-blend-mode: normal;
+	line-height: 104px;
+	box-shadow: 0 0 0 5px rgba(3, 15, 1, 0.1);
+	background-color: #b16d27;
+	-webkit-transition: border-color 0.75s, color 0.75s;
+	transition: border-color 0.75s, color 0.75s;
+	will-change: color, border-color, background;
+	text-shadow: 01px 01px 00 #bf9036;
+}
+.closed .main {
+  color: #fff;
+  box-shadow: 0 0 0 5px rgba(3, 15, 1, 0);
+  background-color: #000000a6;
+}
+ 
+.home {
+  background-color: #1f5ff7;
+  top: 0%;
+  left: 225%;
+  background-image: url(https://bennettfeely.com/cdpn/home.svg);
+  -webkit-transition-duration: 0.525s;
+          transition-duration: 0.525s;
+}
+.home-text {
+  text-decoration:none;
+  display:inline;
+ 
+}
+.home-text > span {
+  position:relative;
+  top:0;
+  left:110%;
+  color:#1f5ff7;
+}
+.closed .home {
+  -webkit-transform: translate3d(-225%, -10%, 0) rotate(-180deg);
+          transform: translate3d(-225%, -10%, 0) rotate(-180deg);
+}
+
+.music {
+  background-color: #1ab254;
+  top: 86.10368%;
+  left: 207.873%;
+  background-image: url(https://bennettfeely.com/cdpn/music.svg);
+  -webkit-transition-duration: 0.675s;
+          transition-duration: 0.675s;
+}
+.music-text {
+  color:#1ab254;
+  text-decoration:none;
+  display:inline;
+  
+
+}
+.music-text > span {
+  position:relative;
+  top:20%;
+  left:105%;
+  color:#1ab254;
+}
+.off {
+  display:none;
+  
+}
+
+.on{
+display: block;
+width:400px;
+}
+.closed .music {
+  -webkit-transform: translate3d(-198.36244%, -89.19384%, 0) rotate(-180deg);
+          transform: translate3d(-198.36244%, -89.19384%, 0) rotate(-180deg);
+}
+
+.messages {
+  background-color: #fec72e;
+  top: 159.09908%;
+  left: 159.09908%;
+  background-image: url(https://bennettfeely.com/cdpn/messages.svg);
+  -webkit-transition-duration: 0.825s;
+          transition-duration: 0.825s;
+}
+.messages-text {
+  color:#fec72e;
+  text-decoration:none;
+  display:inline;
+  
+}
+.messages-text > span {
+  position:relative;
+  top:35%;
+  left:100%;
+}
+.closed .messages {
+  -webkit-transform: translate3d(-153.22122%, -151.00892%, 0) rotate(-180deg);
+          transform: translate3d(-153.22122%, -151.00892%, 0) rotate(-180deg);
+}
+
+.places {
+  background-color: #fa7d39;
+  top: 207.873%;
+  left: 86.10368%;
+  background-image: url(https://bennettfeely.com/cdpn/places.svg);
+  -webkit-transition-duration: 0.975s;
+          transition-duration: 0.975s;
+}
+.places-text {
+  text-decoration:none;
+  display:inline;
+  
+}
+.places-text > span {
+  position:relative;
+top: 21%;
+left: 102%;
+  color: #fa7d39;
+}
+.closed .places {
+  -webkit-transform: translate3d(-91.98154%, -199.78284%, 0) rotate(-180deg);
+          transform: translate3d(-91.98154%, -199.78284%, 0) rotate(-180deg);
+}
+
+.bookmark {
+  background-color:#ec3c3cc2;
+  top: 225%;
+  left: 0%;
+  background-image: url(https://bennettfeely.com/cdpn/bookmark.svg);
+  -webkit-transition-duration: 1.125s;
+          transition-duration: 1.125s;
+}
+.bookmark-text {
+color: #a82020;
+  text-decoration:none;
+  display:inline;
+  
+}
+.bookmark-text > span {
+  position:relative;
+  top:60%;
+  left:0%;
+}
+.closed .bookmark {
+  -webkit-transform: translate3d(-9.51056%, -228.09016%, 0) rotate(-180deg);
+          transform: translate3d(-9.51056%, -228.09016%, 0) rotate(-180deg);
+}

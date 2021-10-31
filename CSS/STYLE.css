@@ -1,0 +1,1189 @@
+/************************************ Before the show  ***********************************/
+          ::-moz-selection {
+               background-color: #0f0;
+               color: #000;
+               text-shadow: -01px -01px 01px #fff;
+          }
+
+          ::selection {
+               background-color: #fff3d8;
+               color: #000;
+               text-shadow: -1px 2px 0 #fff;
+          }
+
+          *,
+          *:before,
+          *:after {
+               box-sizing: border-box;
+               transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+               transition-duration: 0.8s;
+               /* adjusting comingsoon-style.css */
+               -webkit-box-sizing: inherit;
+               -moz-box-sizing: inherit;
+               box-sizing: inherit;
+          }
+
+          /* transitions */
+          img.expand{
+               transition: all 400ms ease-in-out;
+               -webkit-transition: all 400ms ease-in-out;
+               -o-transition: all 400ms ease-in-out;
+               -moz-transition: all 400ms ease-in-out;
+                    }
+/************************************ PHP CSS ***********************************/
+/*php server message*/
+          .server_msg {
+               position: absolute;
+               margin: 08px;
+               background-color: #ffffff5e;
+               border: 2px ridge #0000000f;
+               border-radius: 0.1em;
+               transition-delay: 1.3s;
+               transition-duration: 1.2s;
+               opacity: 0.2;
+          }
+
+          .goodly {
+               color: cornflowerblue;
+               text-shadow: 01px 2px 01px #1994a8;
+               font-weight: bold;
+          }
+
+          h5:hover .goodly {
+               color: aquamarine;
+          }
+
+          .error_msg {
+               color: crimson;
+               position: absolute;
+               bottom: 12px;
+               margin: 0 auto;
+          }
+
+          .failed_msg {
+               color: crimson;
+          }
+/************************************Count Down JS on form redirects *****************/
+     #countdown {
+          color: #2F3D53;
+          /*float:right;*/
+          padding: 0 04px;
+     }
+/************************************ BODY *************************************/
+     html {
+          padding: 0 24px;
+     } 
+     html#music_production{
+          overflow: hidden;
+     }
+     html, body {
+
+     color: #8f8f8f;
+     font-family: "Open Sans Condensed","Century Gothic","Bodoni MT","Arial Narrow", sans-serif;
+     font-size: 22px;
+     font-weight: 100;
+     line-height: 1.5;
+     text-align: left;
+     background-color: black;
+     /* width: 100%;
+     height: 100%; */
+     overflow: auto;
+     /*Background*/
+     background-image: url('http://www.torahtech.tech/background/dark-triangles2.b420de7b0a39a7e4ec61.png');
+     background-size: contain;
+     background-position: center;
+     background-repeat: repeat;
+     background-image: NONE;
+     }
+     body{width:100%;height: 100vh;}
+     
+     /* background   */
+     body.bg_1 {
+          background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+          background-size: cover;
+          background-position: center bottom;
+          background-repeat: repeat;
+     }
+
+     body.bg_2 {
+          background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+          background-size: cover;
+          background-position: center bottom;
+          background-repeat: repeat;
+     }
+
+     body.bg_3 {
+          background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+          background-size: cover;
+          background-position: center bottom;
+          background-repeat: repeat;
+     }
+
+/************************************ DIV formatting styles  ***********************************/
+/* directional  */
+     .flex{
+          display:flex;
+          flex-direction:row;
+          justify-content: space-evenly;
+     }
+/*---- column to the right of everything -----*/
+     .column-right {
+          float: right;
+          clear: right;
+     }
+
+     /* remove margin from tags */
+     .no_margin {
+          margin: 0; 
+     }
+
+     .non_margin {
+          margin-bottom: 0;
+     }
+     /* header.php CSS  */
+     .headerimage{
+          display: flex;
+          flex-direction: column;
+     }
+/************************************ heading tags styles  ***********************************/
+/*---- HEADINGS -----*/
+     h1,
+     h2,
+     h3,
+     h4,
+     h5 {
+          text-transform: uppercase;
+          font-weight: 100;
+     }
+
+     /*---- HEADER -----*/
+
+     h1 {
+          font-family: "Julius Sans One", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          color: #e2e2e2;
+     }
+
+     h2 {
+          margin: 12px 0 0 0;
+          color: #1d5e67;
+          text-transform: capitalize;
+          letter-spacing: 3px;
+          font-size: 1em;
+     }
+
+     h2:hover {
+          color: #277a87;
+          margin-bottom: 0;
+     }
+
+     h3 {
+          font-family: "Ropa Sans", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          margin-bottom: 0;
+     }
+
+     h4 {
+          color: #d2cfb0;
+          margin-bottom: 0;
+     }
+
+     /*---- HEADINGS specific -----*/
+     .heading_rs {
+          font-weight: 900;
+          text-transform: uppercase;
+          font-style: normal;
+          text-rendering: optimizeLegibility;
+          font-family: "BagueSans", Helvetica, Roboto, Arial, "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+     }
+
+     #music_production h1 {
+          display: inline;
+     }
+
+     #music_production h5 {
+          margin: 0;
+          text-align: center;
+          font-size: 1.2em;
+          color: #486f92;
+     }
+
+     /************************************  CONTENT ==========*/
+     /* paragraph */
+     p {
+          margin: 0;
+          text-align: justify;
+     }
+
+     p,
+     ul,
+     ul a {
+          color: #e2e2e2;
+     }
+
+     /* paragraph dimensions */
+     .thirds {
+          width: 60%;
+     }
+
+     /* firstletter  */
+     p:first-letter {
+          text-transform: capitalize;
+          margin-top: 6px;
+     }
+
+     p.dropcap:first-letter {
+          font-family: "Tenor Sans", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          font-size: 1.5em;
+          font-weight: normal;
+          text-align: center;
+          text-transform: uppercase;
+          background-color: teal;
+          min-width: 3em;
+
+          margin: -2px 0.1em 0 0;
+          padding: 0 02px;
+          border-radius: 1em 2em 0.25em 1em;
+          position: relative;
+          float: left;
+          -moz-box-shadow: 0px 0px 5px #333333;
+          -webkit-box-shadow: 0px 0px 5px #333333;
+          box-shadow: 0px 0px 5px #333333;
+     }
+
+     p.dropcap {
+          display: block;
+          max-width: 800px;
+     }
+     p.compact{
+          font-size: 1.2em;
+     line-height: 1.3em;
+     }
+/* #music_production P:first-letter {
+     font-family: "Tenor Sans","Century Gothic","Bodoni MT","Arial Narrow", sans-serif;
+     font-size: 1.5em;
+     font-weight: normal;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: teal;
+     min-width: 3em;
+     vertical-align: bottom;
+     margin: 9px 0.1em 140px 0;
+     padding: 0 10px;
+     border-radius: 1em 2em 0.25em 1em;
+     position: relative;
+     -moz-box-shadow: -7px 4px 02px #7fd498;
+     -webkit-box-shadow: -7px 4px 02px #7fd498;
+     box-shadow: -7px 4px 02px #7fd498;
+} */
+
+     #music_production p::first-letter {
+          text-transform: capitalize;
+          margin-top: 6px;
+          float: left;
+          font-size: 70px;
+          line-height: 68px;
+          padding-top: 0px;
+          padding-right: 8px;
+          padding-left: 3px;
+     }
+
+     /* paragraph fancy firstletter */
+     .fancy:first-letter {
+          font-family: 'Fredericka the Great', cursive;
+          font-size: 1.2em;
+          vertical-align: baseline;
+          color: #5a5f73;
+          line-height: 0em;
+          border-radius: 0.1em;
+     }
+
+     .text:hover .fancy:first-letter {
+          color: inherit;
+          background: #131417;
+     }
+
+     /* paragraph firstletter DropCAP*/
+     p::first-letter,
+     .history_text::first-letter {
+          float: left;
+          margin-top: 12px;
+          padding: 02px 2px 0 0;
+          line-height: 68px;
+          font-size: 50px;
+          font-family: "Poller One", cursive;
+     }
+
+     .history_text::first-letter {
+          transition-duration: 1s;
+          border-left: 1px dashed #6f3810af;
+     }
+
+     .history_text:hover::first-letter {
+          color: #7d5435;
+          border-left: 1px solid #6f3810;
+     }
+
+     /* paragraph keywords bubble look  */
+     .keywords {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+
+     p.bubble {
+
+          background: #f4f7f8;
+          border-radius: 8px;
+          width: 440px;
+          margin: 0 auto;
+          text-align: center;
+          box-shadow: -01px 02px 0 #b6d3ec;
+     }
+
+     /* paragraph Contact.php page */
+     body#Contact {
+          font-family: "Dosis", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+     }
+
+     body#Contact p.no-float::first-letter {
+          float: inherit;
+          margin-left: 40px;
+     }
+
+     /* paragraph small text */
+     .text-small {
+          font-size: 10px;
+     }
+
+     .font_small {
+          font-size: 12px;
+     }
+
+     /* connotation AKA TAGS */
+     pre {
+          width: 100%;
+          font-size: 12px;
+          font-weight: light;
+          letter-spacing: 0.2em;
+          color: #D95743;
+          list-style-type: none;
+          text-transform: uppercase;
+          transition: all 400ms ease-in-out;
+     }
+
+     pre:hover {
+          display: table;
+          white-space: break-spaces;
+          color: rgb(248, 200, 92);
+     }
+
+     pre:before {
+          content: "⥑";
+          transition-delay: 0.2s;
+          margin-right: 03px;
+     }
+
+     pre:hover:before {
+          content: "⥏";
+          margin-right: 0;
+          margin-left: 03px;
+          text-shadow: -0.2px 0.2px 0 hsla(7.2, 60%, 45%, 1), -0.4px 0.4px 0 hsla(14.4, 60%, 45%, 1), -0.6px 0.6px 0 hsla(21.6, 60%, 45%, 1), -0.8px 0.8px 0 hsla(28.8, 60%, 45%, 1), -1px 1px 0 hsla(36, 60%, 45%, 1), -1.2px 1.2px 0 hsla(43.2, 60%, 45%, 1), -1.4px 1.4px 0 hsla(50.4, 60%, 45%, 1), -1.6px 1.6px 0 hsla(57.6, 60%, 45%, 1), -1.8px 1.8px 0 hsla(64.8, 60%, 45%, 1), -2px 2px 0 hsla(72, 60%, 45%, 1), -2.2px 2.2px 0 hsla(79.2, 60%, 45%, 1), -2.4px 2.4px 0 hsla(86.4, 60%, 45%, 1), -2.6px 2.6px 0 hsla(93.6, 60%, 45%, 1), -2.8px 2.8px 0 hsla(100.8, 60%, 45%, 1), -3px 3px 0 hsla(108, 60%, 45%, 1), -3.2px 3.2px 0 hsla(115.2, 60%, 45%, 1), -3.4px 3.4px 0 hsla(122.4, 60%, 45%, 1), -3.6px 3.6px 0 hsla(129.6, 60%, 45%, 1), -3.8px 3.8px 0 hsla(136.8, 60%, 45%, 1), -4px 4px 0 hsla(144, 60%, 45%, 1), -4.2px 4.2px 0 hsla(151.2, 60%, 45%, 1), -4.4px 4.4px 0 hsla(158.4, 60%, 45%, 1), -4.6px 4.6px 0 hsla(165.6, 60%, 45%, 1), -4.8px 4.8px 0 hsla(172.8, 60%, 45%, 1), -5px 5px 0 hsla(180, 60%, 45%, 1), -5.2px 5.2px 0 hsla(187.2, 60%, 45%, 1), -5.4px 5.4px 0 hsla(194.4, 60%, 45%, 1), -5.6px 5.6px 0 hsla(201.6, 60%, 45%, 1), -5.8px 5.8px 0 hsla(208.8, 60%, 45%, 1), -6px 6px 0 hsla(216, 60%, 45%, 1), -6.2px 6.2px 0 hsla(223.2, 60%, 45%, 1), -6.4px 6.4px 0 hsla(230.4, 60%, 45%, 1), -6.6px 6.6px 0 hsla(237.6, 60%, 45%, 1), -6.8px 6.8px 0 hsla(244.8, 60%, 45%, 1), -7px 7px 0 hsla(252, 60%, 45%, 1), -7.2px 7.2px 0 hsla(259.2, 60%, 45%, 1), -7.4px 7.4px 0 hsla(266.4, 60%, 45%, 1), -7.6px 7.6px 0 hsla(273.6, 60%, 45%, 1), -7.8px 7.8px 0 hsla(280.8, 60%, 45%, 1), -8px 8px 0 hsla(288, 60%, 45%, 1), -8.2px 8.2px 0 hsla(295.2, 60%, 45%, 1), -8.4px 8.4px 0 hsla(302.4, 60%, 45%, 1), -8.6px 8.6px 0 hsla(309.6, 60%, 45%, 1), -8.8px 8.8px 0 hsla(316.8, 60%, 45%, 1), -9px 9px 0 hsla(324, 60%, 45%, 1), -9.2px 9.2px 0 hsla(331.2, 60%, 45%, 1), -9.4px 9.4px 0 hsla(338.4, 60%, 45%, 1), -9.6px 9.6px 0 hsla(345.6, 60%, 45%, 1), -9.8px 9.8px 0 hsla(352.8, 60%, 45%, 1), -10px 10px 0 hsla(360, 60%, 45%, 1), 0px 0px 0px hsla(0, 0%, 0%, 0);
+     }
+
+     pre:after {
+          transition-delay: 0.7s;
+          content: "⥏";
+          margin-left: 03px;
+     }
+
+     pre:hover:after {
+          content: "⥑";
+          margin-left: 0;
+          margin-right: 03px;
+          text-shadow: 0.2px 0.2px 0 hsla(7.2, 60%, 45%, 1), 0.4px 0.4px 0 hsla(14.4, 60%, 45%, 1), 0.6px 0.6px 0 hsla(21.6, 60%, 45%, 1), 0.8px 0.8px 0 hsla(28.8, 60%, 45%, 1), 1px 1px 0 hsla(36, 60%, 45%, 1), 1.2px 1.2px 0 hsla(43.2, 60%, 45%, 1), 1.4px 1.4px 0 hsla(50.4, 60%, 45%, 1), 1.6px 1.6px 0 hsla(57.6, 60%, 45%, 1), 1.8px 1.8px 0 hsla(64.8, 60%, 45%, 1), 2px 2px 0 hsla(72, 60%, 45%, 1), 2.2px 2.2px 0 hsla(79.2, 60%, 45%, 1), 2.4px 2.4px 0 hsla(86.4, 60%, 45%, 1), 2.6px 2.6px 0 hsla(93.6, 60%, 45%, 1), 2.8px 2.8px 0 hsla(100.8, 60%, 45%, 1), 3px 3px 0 hsla(108, 60%, 45%, 1), 3.2px 3.2px 0 hsla(115.2, 60%, 45%, 1), 3.4px 3.4px 0 hsla(122.4, 60%, 45%, 1), 3.6px 3.6px 0 hsla(129.6, 60%, 45%, 1), 3.8px 3.8px 0 hsla(136.8, 60%, 45%, 1), 4px 4px 0 hsla(144, 60%, 45%, 1), 4.2px 4.2px 0 hsla(151.2, 60%, 45%, 1), 4.4px 4.4px 0 hsla(158.4, 60%, 45%, 1), 4.6px 4.6px 0 hsla(165.6, 60%, 45%, 1), 4.8px 4.8px 0 hsla(172.8, 60%, 45%, 1), 5px 5px 0 hsla(180, 60%, 45%, 1), 5.2px 5.2px 0 hsla(187.2, 60%, 45%, 1), 5.4px 5.4px 0 hsla(194.4, 60%, 45%, 1), 5.6px 5.6px 0 hsla(201.6, 60%, 45%, 1), 5.8px 5.8px 0 hsla(208.8, 60%, 45%, 1), 6px 6px 0 hsla(216, 60%, 45%, 1), 6.2px 6.2px 0 hsla(223.2, 60%, 45%, 1), 6.4px 6.4px 0 hsla(230.4, 60%, 45%, 1), 6.6px 6.6px 0 hsla(237.6, 60%, 45%, 1), 6.8px 6.8px 0 hsla(244.8, 60%, 45%, 1), 7px 7px 0 hsla(252, 60%, 45%, 1), 7.2px 7.2px 0 hsla(259.2, 60%, 45%, 1), 7.4px 7.4px 0 hsla(266.4, 60%, 45%, 1), 7.6px 7.6px 0 hsla(273.6, 60%, 45%, 1), 7.8px 7.8px 0 hsla(280.8, 60%, 45%, 1), 8px 8px 0 hsla(288, 60%, 45%, 1), 8.2px 8.2px 0 hsla(295.2, 60%, 45%, 1), 8.4px 8.4px 0 hsla(302.4, 60%, 45%, 1), 8.6px 8.6px 0 hsla(309.6, 60%, 45%, 1), 8.8px 8.8px 0 hsla(316.8, 60%, 45%, 1), 9px 9px 0 hsla(324, 60%, 45%, 1), 9.2px 9.2px 0 hsla(331.2, 60%, 45%, 1), 9.4px 9.4px 0 hsla(338.4, 60%, 45%, 1), 9.6px 9.6px 0 hsla(345.6, 60%, 45%, 1), 9.8px 9.8px 0 hsla(352.8, 60%, 45%, 1), 10px 10px 0 hsla(360, 60%, 45%, 1), 0px 0px 0px hsla(0, 0%, 0%, 0);
+     }
+
+     /* pre flexing & bring pre text down some */
+     .samesame {
+          display: flex;
+     }
+
+     .samesame pre {
+          position: relative;
+          top: 40px;
+          left: 08px;
+     }
+
+     /* horizontal line  */
+     hr:first-of-type {
+          width: 90%;
+     }
+
+     hr.mp {
+          background-image: url('https://www.torahtech.tech/thepersonalmassage/bg/24.png');
+          background-size: 80px;
+          background-repeat: repeat-x;
+          background-position: center;
+          height: 20px;
+          width: 100%;
+          margin: 0 auto;
+          border: 0;
+     }
+/* <span> */
+     .datetime {
+          color: #D2CFB0;
+     }
+/* <span class="blockquote"> */
+     .blockquote {
+          position: relative;
+          display: inline-flex;
+          width: auto;
+          font-family: "Special Elite", cursive;
+     }
+
+     .passagequote {
+          margin: 0 auto;
+          text-align: center;
+     }
+
+     .blockquote:before {
+          background-image: url('https://www.torahtech.tech/e1b1a/img/Connotation/quotes-left.png');
+          background-position: top right 1px;
+     }
+
+     .blockquote:before,
+     .blockquote:after {
+          content: "quotes";
+          color: transparent;
+          width: 15px;
+          background-size: 12px;
+          background-repeat: no-repeat;
+     }
+
+     .blockquote:after {
+          background-image: url('https://www.torahtech.tech/e1b1a/img/Connotation/quotes-right.png');
+          background-position: top left 2px;
+     }
+ /* span after Hover  */
+     p:hover span,
+     dl:hover span {
+          color: #1d5e67;
+     }
+/* <span class="ttbw xtra">   */
+     .ttbw {
+          color: white;
+          font-family: "Quicksand","Century Gothic","Bodoni MT","Arial Narrow", sans-serif;
+          font-size: 4rem;
+          text-transform: uppercase;
+          font-weight: 100;
+          line-height: 1.5;
+     }
+     .xtra {
+          color: #3333ff;
+     }
+  
+
+     /* embolded */
+     b {
+          font-weight: 600;
+          color: #a8e4a8;
+          text-shadow: 01px 01px 01px transparent;
+          text-decoration: none;
+          transition: all 400ms ease-in-out;
+          padding: 0px 3px;
+          border: 2px ridge transparent;
+          font-size: 0.8em;
+     }
+
+     b:hover {
+          color: #000;
+          border-radius: 0.4em;
+          transform: translate(-5px, 0);
+          background: #d2cfb0;
+          border: 2px ridge #fff;
+          text-shadow: 01px 01px 01px #fff;
+     }
+
+     strong {
+          font-family: 'Tenor Sans', "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+
+     }
+
+     strong.lowercase {
+          text-transform: lowercase;
+     }
+
+     .colorful strong {
+          color: #717790;
+     }
+
+     .colorful li:hover strong {
+          color: #fff8d9;
+     }
+
+     /* underline */
+     u {
+          text-transform: capitalize;
+          text-decoration-thickness: 3px;
+          -o-text-decoration-thickness: 3px;
+          -webkit-text-decoration-thickness: 3px;
+          -moz-text-decoration-thickness: 3px;
+     }
+
+     i {
+          font-size: 0.8em;
+          font-family: 'Alegreya Sans SC', "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          font-weight: 100;
+     }
+
+     /* listed */
+     ul {
+          list-style-type: decimal-leading-zero;
+          font-weight: bold;
+          text-transform: capitalize;
+     }
+
+     ul.sub li {
+          font-weight: normal;
+          font-size: 10px;
+     }
+
+     .sidebar-second ul:nth-child(odd) h3 {
+          color: rgb(47, 61, 83);
+     }
+
+     /* link & footer & unordered list link a:hover */
+     a:hover,
+     ul a:hover,
+     .footer-links a:hover {
+          color: wheat;
+     }
+
+     /* ordered link  */
+     ol,
+     ol a {
+          list-style-type: hebrew;
+          font-family: 'Mada', arial;
+     }
+
+     ol li {
+          text-transform: capitalize;
+     }
+
+     /* listed: custom styles  */
+     .custom-list {
+          list-style: none;
+          padding-left: 0;
+     }
+
+     .custom-list li {
+          position: relative;
+          padding-left: 20px;
+     }
+
+     .custom-list li:before {
+          content: '';
+          background-image: url('https://www.torahtech.tech/background/circle/FireRing.png');
+          width: 24px;
+          height: 40px;
+          position: relative;
+          background-position: top left -76px;
+          background-repeat: repeat-x;
+          display: inline-block;
+     }
+
+/* description list block */
+     dl dd,
+     .text-color-organization {
+          color: #D95743;
+     }
+
+/* definition description */
+/* <cite> definition block */
+     .dfn {
+          width: 360px;
+          font-family: "Special Elite", cursive;
+          font-size: 10px;
+          opacity: 0.1;
+     }
+
+     dfn {
+          font-family: "Aldrich", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          text-transform: uppercase;
+          color: #d2cfb0;
+     }
+
+     .dfn,
+     dfn {
+          font-style: normal;
+     }
+
+     /* definition-link */
+     .dfn a {
+          font-size: 10px;
+          display: inline;
+          font-style: italic;
+     }
+
+     .dfn:hover {
+          opacity: 1;
+     }
+
+/************************************  Links ==========*/
+     a {
+          font-family: 'Quicksand', "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          color: rgb(47, 61, 83);
+          /*discontinued color - tishri 2021*/
+          color: rgb(0, 102, 204);
+          background-color: transparent;
+          text-decoration: none;
+          cursor: pointer;
+     }
+
+     /* mini menu link  */
+     .column-right a {
+          color: #D2CFB0;
+          font-size: 1em;
+          line-height: 0em;
+     }
+
+     /* sidebar link  */
+     .sidebar-second ul:nth-child(even) li a {
+          color: #a8e4a8;
+     }
+
+     /* a:hover under 'header section */
+
+     .breadcrumbs a:hover,
+     .sidebar-second a:hover,
+     .sidebar-second ul:nth-child(even) li a:hover {
+          color: #D95743;
+          transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+     }
+
+     .sidebar-second a:visited,
+     .sidebar-second ul:nth-child(even) li a:visited {
+          color: #D2CFB0;
+     }
+
+     a:active,
+     .column-right a:hover,
+     .column-right a:visited {
+          color: white;
+          text-decoration: line-through;
+     }
+
+     /* pre link  */
+     pre a,
+     ul a {
+          font-weight: lighter;
+          font-size: 10px;
+          font-family: 'Source Serif Pro', "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+     }
+
+     /* a::hover music-production/index.php */
+     #music_production .hover a:hover {
+          color: white;
+     }
+
+     /* links inside paragraph */
+     .breadcrumbs a:after {
+          content: "›";
+          margin-left: 05px;
+          color: #fff;
+     }
+
+     .breadcrumbs a:hover:after {
+          content: "›";
+          margin-left: 02px;
+          margin-right: 3px;
+     }
+
+     .breadcrumbs a:last-child:after {
+          color: inherit;
+          content: "🞉";
+          vertical-align: middle;
+     }
+
+     .breadcrumbs a:hover:last-child:after {
+          color: #D95743;
+          content: "◄";
+     }
+
+     /* paragraph links  */
+     p a {
+          font-size: inherit;
+          font-family: inherit;
+          color: #A19A91;
+     }
+
+     p a:active {
+          background-color: #38d878;
+          color: black;
+          text-shadow: -1px 1px 0 #53e08c;
+          border-radius: 0.2em;
+     }
+
+     /* a:hover span tags under 'links */
+     span.show {
+          display: inline-block;
+     }
+
+     span.hide {
+          display: none;
+          opacity: 0;
+          position: absolute;
+     }
+
+     a:hover .show,
+     pre:hover .show {
+          display: none;
+     }
+
+     a:hover .hide {
+          display: inline-block;
+          opacity: 1;
+          color: #D2CFB0;
+     }
+
+     pre:hover .hide {
+          display: contents;
+     }
+
+     /* call to action */
+     p a.goto {
+          font-size: inherit;
+     }
+
+     p a.goto:hover {
+          color: white;
+     }
+
+     .goto.c2a:before {
+          content: " THEN CLICK HERE» ";
+     }
+
+     /* cursors  */
+     .circle {
+          cursor: url(https://cur.cursors-4u.net/games/gam-11/gam1092.cur), auto !important;
+     }
+
+     /*selife image*/
+     .disease:active {
+          cursor: url(https://ani.cursors-4u.net/others/oth-9/oth930.cur), auto !important;
+     }
+
+     .disease {
+          cursor: url(https://ani.cursors-4u.net/others/oth-9/oth931.cur), auto !important;
+     }
+
+     /************************************ Tool tip CSS ***********************************/
+     /* tooltip */
+     .tip {
+          text-transform: uppercase;
+          font-family: "Julius Sans One", impact;
+          color: #d2cfb0;
+     }
+
+     .tip:before,
+     .tip:after {
+          content: " * ";
+     }
+
+     .TipCls1 {
+          width: 200px;
+          color: #847545;
+          background: #000;
+     }
+
+     /* tooltip paragraph */
+     a.arjunphp {
+          /*  in paragraphs */
+          font-family: 'Tenor Sans', "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          font-size: inherit;
+          color: inherit;
+     }
+
+     a.arjunphp:hover {
+          color: #A19A91;
+     }
+
+     .tipsum {
+          line-height: 1.4em;
+          overflow-wrap: normal;
+     }
+
+     .tipsum:hover {
+          color: #277a87;
+          transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+          transition-duration: 0.8s;
+          transition-delay: 3.8s;
+     }
+
+/************************************  buttons =========*/
+     .amran {
+          display: inline-block;
+          font-family: "Lexend Zetta", "Century Gothic", "Bodoni MT", "Arial Narrow", sans-serif;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 1;
+          text-align: center;
+          text-decoration: none;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: 0.25rem;
+          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+               border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+          transition-duration: 1s;
+          margin: 2px;
+          padding: 5px;
+          color: #fff;
+          background-color: #007bff;
+          border: 1px solid transparent;
+     }
+
+     .amran:hover {
+          background-color: #0062cc;
+          border: 4px dashed black;
+          box-shadow: 02px 01px 03px #0a19fd;
+     }
+
+/************************************  icons - fontawesome ========= */
+     .fas,
+     .far {
+          transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+     }
+
+     .fa-hourglass {
+          height: 0.7em;
+     }
+
+     #content:hover .fa-fire {
+          color: #D95743;
+     }
+
+     #content:hover .fa-wind {
+          color: #fff;
+     }
+
+     #content:hover .fa-dna {
+          color: #1d5e67;
+     }
+
+/************************************ Images CSS ******************************/
+     /* vertical-align */
+     .img {
+          display: inline;
+          vertical-align: baseline;
+          transition-duration: 0.8s;
+     }
+
+     .image img {
+          vertical-align: bottom;
+     }
+
+     .top {
+          vertical-align: top;
+     }
+
+     .sub {
+          vertical-align: sub;
+     }
+
+     .tb {
+          vertical-align: text-bottom;
+     }
+
+     .baseline {
+          vertical-align: baseline;
+     }
+
+     /* remove extra space on bottom  */
+     .baselined {
+          vertical-align: baseline;
+          margin-bottom: -32px;
+     }
+
+     /* sizes images */
+     .tiny {
+          height: 20px;
+          width: 20px;
+     }
+
+     .img-small {
+          max-height: 20px;
+          display: inline;
+          vertical-align: baseline;
+     }
+
+     .small {
+          max-height: 30px;
+     }
+
+     .wide {
+          width: 240px;
+     }
+
+     .smallmedium {
+          max-height: 50px;
+          vertical-align: sub;
+     }
+     #music_production .smallmedium {vertical-align: middle; }
+     .medium {
+          width: 400px;
+     }
+
+     .display {
+          width: 600px;
+     }
+
+     /* specified  */
+     h2 img.sub {
+          max-height: 38px;
+     }
+
+     /* Dimensional   */
+     .cube {
+          width: 80px;
+          height: 80px;
+     }
+
+     /* show-hide  */
+     .revert {
+          opacity: 0.05;
+          margin-left: 0;
+     }
+
+     p:hover .revert,
+     pre:hover .revert {
+          opacity: 1;
+          margin-left: revert;
+     }
+
+     /* delaying second images  */
+     p img+img {
+          transition-delay: 0.7s;
+     }
+
+     /************************************  border  */
+     .lined {
+          box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+          border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+     }
+
+     .lined:hover {
+          box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, .3);
+     }
+
+     .lined.thick {
+          border: solid 7px #41403E;
+
+     }
+
+     .lined.thin {
+          border: solid 2px #41403E;
+     }
+
+     .dashed.thin {
+          border: dashed 2px #41403E;
+     }
+
+     /*  image info sprite */
+     a.info:hover img {
+          -webkit-filter: grayscale(0.7);
+          /* Chrome, Safari, Opera */
+          filter: grayscale(0.7);
+     }
+
+/*################################### ####################### TABLE CSS ######## ###################################*/
+table {
+     margin: 0 auto !important;
+}
+
+/* table - verti_line */
+table.verti_line {
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+}
+
+table.verti_line,
+table.verti_line a {
+     width: 100%;
+     text-align: left;
+     border-collapse: collapse;
+     color: #fff;
+     font-size: 12px;
+}
+
+table.verti_line a:hover {
+     color: #a19a91;
+}
+
+table.verti_line a:hover span {
+     color: lime;
+}
+
+table.verti_line tbody {
+     margin: 0 auto;
+}
+
+table.verti_line td {
+     flex-grow: 1;
+     max-width: 400px;
+     width: auto;
+     min-width: 300px;
+}
+
+table.verti_line td,
+table.verti_line th {
+     border-top: 1px solid #8f8f8f;
+     padding: 3px 4px;
+}
+
+table.verti_line thead {
+     border-bottom: 2px solid #8f8f8f;
+     border-top: 2px solid #8f8f8f;
+}
+
+table.verti_line thead th {
+     font-size: 15px;
+     font-weight: bold;
+     text-align: left;
+}
+
+table.verti_line tr:last-child {
+     border-bottom: 1px solid #8f8f8f;
+}
+
+/* table - id="music_production" */
+#music_production table {
+     width: 100%;
+}
+
+#music_production table td {
+     border-bottom: 01px solid #444;
+     border-color: black;
+     border-right: 0;
+}
+
+.whitelinks tr:hover {
+     background: #111;
+     color: #fff;
+}
+
+.whitelinks td+td {
+     width: 25%;
+     text-align: center;
+     border-left: none;
+}
+
+.whitelinks td+td .small {
+     margin-left: 02px;
+}
+
+.whitelinks td:nth-child(1) {
+     font-size: 1.8em;
+     line-height: 0.8em;
+}
+/*################################### ####################### FORMS CSS ######## ###################################*/
+/* (see forms.css)  */
+/****************************** Sub-Section: Contact Page  ************************/
+.qsr {
+     width: 100%;
+     height: 200px;
+     margin-top: 12px;
+     display: inline-block;
+     position: absolute;
+}
+
+.contact {
+     width: 140px;
+     height: 100px;
+     display: inline-flex;
+     margin: 0;
+}
+
+/* text container  */
+.text {
+     width: 50%;
+     margin: 0 auto;
+}
+
+.contact img {
+     display: inline-block;
+     width: 75%;
+     width: 114%;
+     height: auto;
+     transition-duration: 0.4s;
+}
+
+.contact a {
+     text-align: center;
+}
+
+.contact:nth-child(even) img:hover {
+     -webkit-filter: grayscale(100%);
+     /* Chrome, Safari, Opera */
+     filter: grayscale(100%);
+     margin-top: 02px;
+     margin-bottom: -02px;
+     transform: rotate(12deg);
+}
+
+.contact:nth-child(odd) img:hover {
+     transform: rotate(-12deg);
+}
+
+.contact p {
+     text-align: center;
+     margin: 0;
+     text-transform: uppercase;
+}
+
+.contact:hover p {
+     color: white;
+}
+
+.contact a:hover {
+     text-decoration: underline;
+}
+
+/************************************  Footer CSS styling  ***********************************/
+footer {
+     left: 0;
+     bottom: 4px;
+     width: 100%;
+     height: auto;
+     font-size: 0.6em;
+     text-align: center;
+}
+
+footer .hvr-icon-grow {
+     vertical-align: baseline;
+}
+
+footer>a:hover:before {
+     content: "—"
+}
+
+footer>a:hover .fa-home {
+     color: #ffe6a7;
+}
+
+footer>a:hover .fa-home:hover {
+     color: limegreen;
+}
+
+footer,
+footer p {
+     display: inline-flex;
+     margin: 0 8px;
+}
+
+/* footer links  */
+.footer-links {
+     justify-content: space-evenly;
+     display: flex;
+     width: 600px;
+     margin: 0 auto;
+}

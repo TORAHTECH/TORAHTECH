@@ -1,0 +1,407 @@
+::-moz-selection {
+     background-color: #0f0;
+     color: #000;
+     text-shadow: -01px -01px 01px #fff;
+}
+ ::selection {
+     background-color: #fff3d8;
+     color: #000;
+     text-shadow: -1px 2px 0 #fff;
+}
+
+ *, *:before, *:after {
+     box-sizing: border-box;
+     transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+     transition-duration: 0.8s;
+	/* adjusting comingsoon-style.css */	 
+	 -webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+/************************************ PHP CSS ***********************************//*php server message*/
+.server_msg {
+	position: absolute;
+     margin:08px;
+	background-color: #ffffff5e;
+	border: 2px ridge #0000000f;
+	border-radius: 0.1em;
+     transition-delay:1.3s;
+     transition-duration:1.2s;
+     opacity:0.2;
+   }
+   
+.goodly{color:lime;text-shadow: 01px 2px 01px #1994a8; font-weight:bold;}
+.error_msg{
+     color:crimson;
+     position:absolute;
+     bottom:12px;
+     margin:0 auto;
+}
+.goodly{color:lime;text-shadow: 01px 2px 01px #1994a8; font-weight:bold;}
+/************************************Count Down JS on form redirects *****************/
+#countdown{
+color:#2F3D53;
+/*float:right;*/
+padding:0 04px;
+}
+
+/************************************ BODY *************************************/
+  html, body {
+     background:black;
+     color:#8F8F8F;
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 12px;
+     font-weight: 100;
+     line-height: 1.5;
+     text-align: left;
+     height: 100%;
+     /*Background*/
+     background-image: url('http://www.torahtech.tech/background/dark-triangles2.b420de7b0a39a7e4ec61.png');
+     background-size:contain;
+     background-position:center;
+     background-repeat:repeat;
+     
+     padding: 144px  24px;/* content pages */
+     padding: 0 ;
+}
+/* background   */
+ body.bg_1 {
+     background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+     background-size: cover;
+     background-position: center bottom;
+     background-repeat: repeat;
+}
+ body.bg_2 {
+     background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+     background-size: cover;
+     background-position: center bottom;
+     background-repeat: repeat;
+}
+ body.bg_3 {
+     background: url("https://static.vecteezy.com/system/resources/previews/000/570/684/original/vector-illustration-of-an-abstract-background-with-graphs-chart-of-stock-market-investment-trading.jpg");
+     background-size: cover;
+     background-position: center bottom;
+     background-repeat: repeat;
+}
+
+/************************************ heading tags styles  ***********************************/
+ /*---- HEADER -----*/
+
+ h1 {
+     font-family: "Julius Sans One", sans-serif;  
+     color: #e2e2e2;
+  }
+  h2 {
+     font-weight: 600;
+     color: #1d5e67;
+     text-transform: capitalize;
+  }
+  h2:hover,
+  a:hover {
+     color: #277a87;
+  }
+  h3 {
+     font-family: "Ropa Sans", sans-serif;
+  }
+  h4 {
+     color: #d2cfb0;
+  }
+
+ /*---- HEADINGS -----*/
+ h1,h2,h3,h4,h5{
+    font-family: "quicksand bold oblique";
+     text-transform: uppercase;
+}
+
+/*---- HEADINGS specific -----*/
+.heading_rs {
+font-weight: 900;text-transform: uppercase;font-style: normal;text-rendering: optimizeLegibility;font-family: "BagueSans",Helvetica,Roboto,Arial,sans-serif;
+}
+/*******************************************  tags style  ******************************************/
+b{font-weight:bold;}
+ul{list-style-type:none;}
+ol{list-style-type:hebrew;}
+
+/*======================================== Links ==========*/
+a{
+     font-family:"quicksand bold oblique", sans-serif;
+     text-decoration:none;
+	 cursor:pointer;
+}
+/* a:hover under 'header section */
+a:active,a:visited{
+     color:rgb(248, 200, 92);
+}
+/* a:hover span tags under 'links */
+span.show{display:inline-block;}
+span.hide{display:none;}
+a:hover .show{display:none;}
+a:hover .hide{  display:inline-block;}
+/* tooltip */
+.tip {
+     text-transform: uppercase;
+     font-family: "Julius Sans One", impact;
+     color: #d2cfb0;
+  }
+  .tip:before,
+  .tip:after {
+     content: " * ";
+  }
+  
+  /* tooltip paragraph */
+  .tipsum {
+     line-height: 1.4em;
+     overflow-wrap: normal;
+  }
+  .tipsum:hover {
+     color: #277a87;
+     transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+     transition-duration: 0.8s;
+     transition-delay: 3.8s; 
+  }
+
+
+
+
+
+/*======== buttons =========*/
+.amran {
+   display: inline-block;
+   font-family: "Lexend Zetta", sans-serif;
+	font-size: 12px;
+   font-weight: 300;
+   line-height: 1;
+   text-align: center;
+   text-decoration: none;
+   white-space: nowrap;
+   vertical-align: baseline;
+   border-radius: 0.25rem;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   transition-duration:1s;
+   margin: 2px;
+   padding: 5px;
+   color: #fff;
+   background-color: #007bff;
+border:1px solid transparent;
+}
+.amran:hover {
+   background-color: #0062cc;
+   border:1px dashed black;
+}
+/*======== icons - fontawesome ========= */
+.fas, .far{
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.fa-hourglass{
+height: 0.7em;
+}
+#content:hover .fa-fire{
+color:#D95743;
+}
+#content:hover .fa-wind{
+color:#fff;
+}
+#content:hover .fa-dna{
+color: #1d5e67;
+}
+
+						
+/************************************ Images CSS ******************************/
+ .img {
+     display: inline;
+     vertical-align: baseline;
+     transition-duration: 0.8s;
+}
+ .img-small {
+     max-height: 20px;
+     display: inline;
+     vertical-align: baseline;
+}
+ .smallmedium {
+     max-height: 50px;
+     vertical-align: sub;
+}
+ .image img{
+     vertical-align:bottom;
+}
+/*  image info sprite */
+ a.info:hover img {
+     -webkit-filter: grayscale(0.7);
+/* Chrome, Safari, Opera */
+     filter: grayscale(0.7);
+}
+
+
+/*################################### ####################### FORMS CSS ######## ###################################*/
+/* form - legend */
+.form_css form legend{
+     color: #a8e4a8;
+     text-transform: uppercase;
+}
+fieldset .legend{
+     font-family: "Irvin-Heading";font-size: 24px;
+     }
+
+/* form - fieldset */
+form fieldset{
+     border-color: #0e1a33;
+     box-shadow: -4px 01px 5px #284dbbe6;
+     border-radius: 1em;
+     width: 400px;
+}
+ fieldset h2{
+     text-shadow: -1px 2px 0 #333535;
+}
+ form:hover fieldset{
+     border-color: #2dbf9d;
+     box-shadow: -4px 01px 5px #60f092e6;
+}
+/* form - connotations */
+ .form_css p{
+     font-size: 1.4em;
+     color:#fff3d8;
+}
+ .form_css span{
+     font-family: 'Open Sans Condensed', sans-serif;
+     color:lime;
+}
+ .form_css span b{
+     font-family: "Impact Label reversed";
+     color: #a8e4a8;
+     font-weight: 900;
+}
+/* form - CLASSES */
+/* class="css-checkbox" */
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+input[type=checkbox].css-checkbox + label.css-checkbox-label {
+							padding-left:29px;
+							height:24px; 
+							display:inline-block;
+							line-height:24px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:24px;
+							vertical-align:middle;
+							cursor:pointer;
+						}
+
+input[type=checkbox].css-checkbox:checked + label.css-checkbox-label  {
+							background-position: 0 -24px;
+						}
+label.css-checkbox-label {
+				background-image:url(img/csscheckbox_25c68cea905658aa397c192548f75f50.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+/* class="css-radio" */
+input[type=radio].css_radio {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+input[type=radio].css_radio + label.css_radio_label {
+							padding-left:27px;
+							height:23px; 
+							display:inline-block;
+							line-height:23px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:23px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+ 
+label.css_radio_label {
+				background-image:url(img/csscheckbox_277f6c2a2554ba0ad9914f660d37291b.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}		
+label.css_radio_label2 {
+				background-image:url(img/csscheckbox_fe6a1bfbab599869ded433b14bc9712a.png);}
+				
+input[type=radio].css_radio:checked + label.css_radio_label {
+							background-position: 0 -24px;
+						}
+
+/************************************ Tool tip CSS ***********************************/
+ .TipCls1{
+    width:200px;
+     color:#847545;
+     background:#000;
+}
+
+/****************************** Sub-Section: Contact Page  ************************/
+.qsr{
+     width: 100%;
+     height:200px;
+     margin-top: 12px;
+     display: inline-block;
+     position: absolute;
+}
+ .contact{
+     width:140px;
+     height:inherit;
+     display:inline-flex;
+     margin:0 ;
+}
+ .contact img{
+     display:inline-block;
+     width:75%;
+     height:auto;
+     transition-duration:0.4s;
+}
+ .contact a{
+     text-align:center;
+}
+ .contact:nth-child(even) img:hover{
+     -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
+     filter: grayscale(100%);
+     margin-top:02px;
+     margin-bottom:-02px;
+     transform: rotate(12deg);
+}
+ .contact:nth-child(odd) img:hover{
+     transform: rotate(-12deg);
+}
+ .contact p{
+     text-align:center;
+     margin: 0;
+     text-transform: uppercase;
+}
+ .contact:hover p{
+     color:white;
+}
+ .contact a:hover{
+     text-decoration:underline;
+}
+/************************************  Footer CSS styling  ***********************************/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 4px;
+  width: 100%;
+  height:auto; 
+  text-align: center;
+}
+footer > a:hover{
+color:white;
+}
+footer > a:hover .fa-home{
+color:goldenrod;
+}
+footer > a:hover .fa-home:hover{
+color:limegreen;}

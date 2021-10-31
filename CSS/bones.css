@@ -1,0 +1,467 @@
+::-moz-selection {
+     background-color: #0f0;
+     color: #000;
+     text-shadow: -01px -01px 01px #fff;
+}
+ ::selection {
+     background-color: #fff3d8;
+     color: #000;
+     text-shadow: -1px 2px 0 #fff;
+}
+
+ *, *:before, *:after {
+     box-sizing: border-box;
+     transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+     transition-duration: 0.8s;
+	/* adjusting comingsoon-style.css */	 
+	 -webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+/************************************ PHP CSS ***********************************//*php server message*/
+.server_msg{ 
+     position:fixed;
+     transition-delay:0;
+     transition-delay:1.3s;
+     transition-duration:1.2s;
+     opacity:0.2;
+     bottom: 0;
+     margin: 0 auto;
+   }
+
+/************************************Count Down JS on form redirects *****************/
+#countdown{
+color:#2F3D53;
+padding:0 04px;
+}
+
+/************************************ BODY *************************************/
+ html, body {display: block;
+     color: #384047;
+     background-color:none;
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-family: "Nunito", sans-serif;
+     font-size: 12px;
+     font-weight: 100;
+     line-height: 1.5;
+     text-align: left;
+     }
+/************************************ heading tags styles  ***********************************/
+
+
+/*******************************************  tags style  ******************************************/
+span.strikethrough{background-image: url('https://i.pinimg.com/originals/4c/e4/fd/4ce4fd3051ec2ff3f80ed11fdc3b830e.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: left top;
+     color: #b2ffe9;
+     text-align: center;
+     display: inline-block;
+     width: 50px;
+     padding-left: 7px;}
+/*======================================== Links ==========*/
+a{
+     font-family:"quicksand bold oblique", sans-serif;
+     text-decoration:none;
+	cursor:pointer;
+}
+a:hover{color: #2F3D53;}
+footer a:hover{font-family: "Aldrich", sans-serif;}
+/*======== buttons =========*/
+/* forms.css > buttons */
+
+/*======== icons - fontawesome ========= */
+.fas, .far{
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.fa-hourglass{
+height: 0.7em;
+}
+#content:hover .fa-fire{
+color:#D95743;
+}
+#content:hover .fa-wind{
+color:#fff;
+}
+#content:hover .fa-dna{
+color: #1d5e67;
+}
+
+						
+/************************************ Images CSS ******************************/
+
+/************************************ Images CSS ******************************/
+.img {
+     display: inline;
+     vertical-align: baseline;
+     transition-duration: 0.8s;
+}
+
+.image img {
+     vertical-align: bottom;
+}
+img.image-m {
+     vertical-align: middle;
+}
+.sub {
+     vertical-align: sub;
+}
+
+.baseline {
+     vertical-align: baseline;
+}
+
+.top {
+     vertical-align: top;
+}
+
+.tiny {
+     height: 20px;
+     width: 20px;
+}
+
+.img-small {
+     position: absolute;
+     display: inline;
+	margin: 32px;
+     max-height: 20px;
+     vertical-align: baseline;
+     transition-duration: 0.8s;
+	background-color: #ffffff5e;
+	border: 2px ridge #0000000f;
+	border-radius: 0.1em;
+}
+
+.small {
+     max-height: 20px;
+}
+
+h2 img.sub {
+     max-height: 38px;
+}
+
+.smallmedium {
+     max-height: 50px;
+     vertical-align: sub;
+}
+
+.medium {
+     width: 400px;
+}
+.display{
+     width: 600px;
+}
+
+
+/*  image info sprite */
+ a.info:hover img {
+     -webkit-filter: grayscale(0.7);
+/* Chrome, Safari, Opera */
+     filter: grayscale(0.7);
+}
+
+/************************************   amimations  ***********************************/
+/* collecting information  */
+.fa-spinner:hover {
+     -webkit-animation: fa-spin 2s infinite linear;
+     animation: fa-spin 2s infinite linear;
+ }
+/************************************  Footer CSS styling  ***********************************/
+    
+/************************************  Forms CSS styling  ***********************************/
+
+button {
+     cursor: pointer;
+     }
+
+     button:active {
+          color: white;
+          background: black;
+          border-color: inherit;
+     }
+
+     button:hover {
+          background: #d2cfb0;
+          color: #a19a91;
+          text-shadow: -01px -01px 0 #ffe9a4;
+          border-color: inherit;
+          /* background-image */
+          background-image: url('https://www.torahtech.tech/thepersonalmassage/bg/content-bg.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+     }
+
+    form {
+     /* max-width: 300px; */
+     margin: 10px auto;
+     margin-bottom: 90px;
+     padding: 10px 20px;
+     background: #f4f7f8;
+     border-radius: 8px;
+    }
+    h1 {
+     margin: 0 0 30px 0;
+     text-align: center;
+     font-family: "Nunito", sans-serif;
+    }
+    #name:focus,#id:focus,#mail:focus{ 
+     box-shadow: 03px 2px 1px #ccd3d47a inset; 
+     }
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+     background: rgba(255, 255, 255, 0.1);
+     border: none;
+     font-size: 16px;
+     height: auto;
+     margin: 0;
+     outline: 0;
+     padding: 12px 24px;
+     width: 100%;
+     background-color: #e8eeef;
+     color: #8a97a0;
+     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+     margin-bottom: 30px;
+     border: 3px solid #fafeff;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+     margin: 0 4px 8px 5px;
+     display: inline;
+    }
+    input[type="text"]{font-weight: bold;text-transform:capitalize;}
+    select {
+     padding: 6px;width: 50%;
+     height: 37px;
+     border-radius: 2px;
+    }
+
+    button {
+     padding: 20px 0;
+     color: #fff;
+     background-color: #4bc970;
+     font-size: 18px;
+     text-align: center;
+     font-style: normal;
+     border-radius: 5px;
+     width: 100%;
+     border: 1px solid #3ac162;
+     border-width: 1px 1px 3px;
+     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+     margin-bottom: 10px;
+    }
+    
+    fieldset {
+     margin-bottom: 30px;
+     border: none;
+     box-shadow:none;
+     border-radius:none;
+    }
+    
+    legend {
+     font-size: 1.4em;
+     margin-bottom: 10px;
+    }
+    
+    label {
+     display: block;
+     margin-bottom: 8px;
+    }
+    /* entry-lvl-form-php.php */
+    .form-php label{
+     color:#d2cfb0;
+     margin-top: 12px;
+     }
+     .form-php select.short{
+     width: 60%;
+     }
+
+    .hide {
+     display: inline;
+    }
+    .show {
+     display: none;
+    }
+    label.light:hover .hide {
+     display: none;
+    }
+    label.light:hover .show {
+     display: inline;
+    }
+    .number {
+     background-color: #5fcf80;
+     color: #fff;
+     height: 30px;
+     width: 30px;
+     display: inline-block;
+     font-size: 0.8em;
+     margin-right: 4px;
+     line-height: 30px;
+     text-align: center;
+     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+     border-radius: 100%;
+    }
+    
+    @media screen and (min-width: 480px) {
+     form {
+      max-width: 480px;
+     }
+    }
+    
+    
+    .contain input {
+     margin-right: 12px;
+     cursor: alias;
+    }
+    .contain .light {
+     background: #fefefe;
+     border-radius: 0.2em;
+     padding: 0 02px;
+    }
+    .contain .light:hover {
+     background: none;
+     transition-duration: 0.4s;
+    }
+    /* body#form */
+    /*  selection */
+    ::selection {
+     color: #485ab0;
+     background: #26dbb1b0;
+     text-shadow: -01px 01px 0 #25c9dad6;
+    }
+    
+    #favcolor {
+     padding-top: 6px;
+     border-radius: 0.1em;
+     background: #4bc970;
+     border: 2px solid #89ffa1d9;
+     color: white;
+     margin: 0 16px 0 0;
+     border-radius: 0.2em;
+     transition-duration: 1s;
+     text-align: center;
+     line-height: 1.3em;
+    }
+    
+    #favcolor:hover {
+     background: #3eff65;
+     cursor: grab;
+     color: inherit;
+     padding-bottom: 0;
+    }
+    #occu:active .show {
+     color: black;
+    }
+    textarea {
+     transition-duration: 1.7s;
+    }
+    textarea:focus, input.fade:focus {
+     background: #2f4a59de;
+     color: #53f0d3;
+    }
+    
+    .contain input:hover {
+     box-shadow: 1px 1px 5px #000;
+    }
+    
+    .light,
+    .show {
+     color: grey;
+     transition-duration: 1.5s;
+     font-weight: 600;
+    }
+    .light:hover {
+     letter-spacing: 0.3px;
+    }
+    
+    #occu:nth-child(even):hover {
+     color: #0d70f2;
+    }
+    #occu:nth-child(odd):hover {
+     color: orange;
+    }
+    #occu .show {
+     visibility: hidden;
+     opacity: 0;
+    }
+    #occu:hover .show {
+     visibility: visible;
+     opacity: 1;
+     color: inherit;
+    }
+    
+    .contain .light:nth-child(odd) {
+     color: #0d70f2;
+    }
+    
+    .contain .light:nth-child(odd):hover {
+     color: black;
+     text-shadow: -01px 01px 0 #fff;
+    }
+ 
+    .contain .light:nth-child(even):hover {
+     color: #6896ba;
+     text-shadow: -01px 01px 0 #fff;
+    }
+    
+    .contain .light {
+     transition-duration: 0.2s;
+    }
+
+/************************************  Footer CSS styling  ***********************************/
+     footer {
+     left: 0;
+     bottom: 4px;
+     width: 100%;
+     height:auto;
+     font-size: 0.6em;
+     text-align: center;
+     }
+     
+     footer:hover p {
+     background: #2bc7b9;
+     color: black;
+     padding: 0 04px;
+     border-radius: 0.4em;
+     }
+   footer .hvr-icon-grow{vertical-align:baseline;color: #333a45;}
+   footer:hover p a{
+        color:#5a5f73;
+   }
+   footer p  a:active{
+        color:#2bc7b9;
+   }
+   footer p  a:visited{
+        color:#2bc7b9;
+   }
+   footer > p  a:hover{
+     color:#5a5f73;
+   }
+   footer > p  a:hover .fa-home{
+     color:#5a5f73;
+   }
+   footer > a:hover .fa-home:hover{
+   color:limegreen;}
+   footer, footer p{display: inline-flex;
+     transition-delay: 0.2s;
+     transition-duration: 0.2s;
+}
+   footer a sup{vertical-align: baseline;}
+   footer .fa-home{font-size: 14px;}
+
+/* footer  BOTTOM position  */
+ footer.position{position: absolute;bottom:0;background: black;
+     background-position: bottom right;
+
+}
